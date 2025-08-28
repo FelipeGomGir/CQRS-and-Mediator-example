@@ -1,0 +1,11 @@
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\bin\Debug\net8.0\HR.LEaveManagement.Domain.deps.json
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\bin\Debug\net8.0\HR.LEaveManagement.Domain.dll
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\bin\Debug\net8.0\HR.LEaveManagement.Domain.pdb
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\obj\Debug\net8.0\HR.LEaveManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\obj\Debug\net8.0\HR.LEaveManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\obj\Debug\net8.0\HR.LEaveManagement.Domain.AssemblyInfo.cs
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\obj\Debug\net8.0\HR.LEaveManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\obj\Debug\net8.0\HR.LEaveManagement.Domain.dll
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\obj\Debug\net8.0\refint\HR.LEaveManagement.Domain.dll
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\obj\Debug\net8.0\HR.LEaveManagement.Domain.pdb
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\obj\Debug\net8.0\ref\HR.LEaveManagement.Domain.dll
