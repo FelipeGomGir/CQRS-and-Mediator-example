@@ -20,6 +20,19 @@
           }
         }
       },
+      "FluentValidation/12.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MediatR/13.0.0": {
         "type": "package",
         "dependencies": {
@@ -255,6 +268,21 @@
         "lib/net9.0/AutoMapper.xml",
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "FluentValidation/12.0.0": {
+      "sha512": "8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+      "type": "package",
+      "path": "fluentvalidation/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.0.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
       ]
     },
     "MediatR/13.0.0": {
@@ -638,28 +666,29 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 15.0.1",
+      "FluentValidation >= 12.0.0",
       "HR.LeaveManagement.Domain >= 1.0.0",
       "MediatR >= 13.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luisf\\.nuget\\packages\\": {},
+    "C:\\Users\\fgomez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
+      "projectUniqueName": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
       "projectName": "HR.LeaveManagement.Application",
-      "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
-      "packagesPath": "C:\\Users\\luisf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\obj\\",
+      "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
+      "packagesPath": "C:\\Users\\fgomez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\luisf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\fgomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -674,8 +703,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj"
+            "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj"
             }
           }
         }
@@ -700,6 +729,10 @@
             "target": "Package",
             "version": "[15.0.1, )"
           },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[12.0.0, )"
+          },
           "MediatR": {
             "target": "Package",
             "version": "[13.0.0, )"
@@ -721,7 +754,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {}
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
         "projectName": "HR.LeaveManagement.Domain",
-        "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\luisf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\obj\\",
+        "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\fgomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luisf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fgomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
