@@ -1,0 +1,16 @@
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\bin\Debug\net8.0\HR.LeaveManagement.Application.deps.json
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\bin\Debug\net8.0\HR.LeaveManagement.Application.dll
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\bin\Debug\net8.0\HR.LeaveManagement.Application.pdb
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\bin\Debug\net8.0\HR.LeaveManagement.Domain.dll
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\bin\Debug\net8.0\HR.LeaveManagement.Domain.pdb
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.csproj.AssemblyReference.cache
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.AssemblyInfoInputs.cache
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.AssemblyInfo.cs
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.csproj.CoreCompileInputs.cache
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.sourcelink.json
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.Leave.CEB84392.Up2Date
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.dll
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\refint\HR.LeaveManagement.Application.dll
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\HR.LeaveManagement.Application.pdb
+C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LeaveManagement.Application\obj\Debug\net8.0\ref\HR.LeaveManagement.Application.dll
