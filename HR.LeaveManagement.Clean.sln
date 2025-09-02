@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{8093A384-3711-4FA3-B44B-A20794FFDBA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{1D3FDF9A-A1BE-4B61-863E-C770BF2BCD30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagment.Persistence", "HR.LeaveManagment.Persistence\HR.LeaveManagment.Persistence.csproj", "{70364429-EFE2-460A-BAC3-22975C850415}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{8093A384-3711-4FA3-B44B-A20794FFDBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8093A384-3711-4FA3-B44B-A20794FFDBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8093A384-3711-4FA3-B44B-A20794FFDBA6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D3FDF9A-A1BE-4B61-863E-C770BF2BCD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D3FDF9A-A1BE-4B61-863E-C770BF2BCD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D3FDF9A-A1BE-4B61-863E-C770BF2BCD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D3FDF9A-A1BE-4B61-863E-C770BF2BCD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70364429-EFE2-460A-BAC3-22975C850415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70364429-EFE2-460A-BAC3-22975C850415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70364429-EFE2-460A-BAC3-22975C850415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70364429-EFE2-460A-BAC3-22975C850415}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +50,7 @@ Global
 		{E1268D1E-0F98-4D52-BB6D-2069C407C357} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{70EABD05-7B7E-48CA-94CC-D2B7D1A1BEFF} = {E1268D1E-0F98-4D52-BB6D-2069C407C357}
 		{8093A384-3711-4FA3-B44B-A20794FFDBA6} = {E1268D1E-0F98-4D52-BB6D-2069C407C357}
+		{70364429-EFE2-460A-BAC3-22975C850415} = {F74EA451-8643-43DA-A693-734F1845811A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D733E56-FB89-40F7-85CA-893CA7AD64CF}
