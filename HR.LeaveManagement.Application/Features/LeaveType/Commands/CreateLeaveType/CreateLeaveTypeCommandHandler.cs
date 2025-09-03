@@ -15,6 +15,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveType.Commands.CreateLeave
         private readonly IMapper _mapper;
         private readonly ILeaveTypeRepository _repo;
 
+
         public CreateLeaveTypeCommandHandler(IMapper mapper, ILeaveTypeRepository repo)
         {
             _mapper = mapper;

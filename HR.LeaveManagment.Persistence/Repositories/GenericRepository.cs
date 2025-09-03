@@ -32,6 +32,8 @@ namespace HR.LeaveManagment.Persistence.Repositories
 
         public async Task<IReadOnlyList<T>> GetAsync()
         {   // as we are expecting a generic type we only specify the set of that type.
+            // This AsNoTracking improves the performance of the app since EF core is not tracking 
+            // changes because you're only getting the data in DBContext. 
             return await _context.Set<T>().AsNoTracking().ToListAsync();
         }
 

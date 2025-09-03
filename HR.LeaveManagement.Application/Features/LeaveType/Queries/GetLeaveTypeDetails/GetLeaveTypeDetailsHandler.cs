@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace HR.LeaveManagement.Application.Features.LeaveType.Queries.GetLeaveTypeDetails
 {
-    public class GetLeaveTypeDetailsHandler : IRequestHandler<GetLeaveTypesDetailsQuery, List<LeaveTypeDetailsDto>>
+    public class GetLeaveTypeDetailsHandler : IRequestHandler<GetLeaveTypesDetailsQuery, LeaveTypeDetailsDto>
     {
         private readonly IMapper _mapper;
         private readonly ILeaveTypeRepository _repo;
@@ -21,7 +21,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveType.Queries.GetLeaveType
             this._repo = repo;
         }
 
-        public async Task<List<LeaveTypeDetailsDto>> Handle(GetLeaveTypesDetailsQuery request, CancellationToken cancellationToken)
+        public async Task<LeaveTypeDetailsDto> Handle(GetLeaveTypesDetailsQuery request, CancellationToken cancellationToken)
         {
             // Query to database
             var leaveTypesDetail = await _repo.GetByIdAsync(request.Id);
@@ -31,7 +31,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveType.Queries.GetLeaveType
                 throw new NotFoundException(nameof(LeaveType), request.Id);
 
             // Convert from entity to Dto 
-            var data = _mapper.Map<List<LeaveTypeDetailsDto>>(leaveTypesDetail);
+            var data = _mapper.Map<LeaveTypeDetailsDto>(leaveTypesDetail);
             //_mapper.Map<TDestination>(source);
 
             //return Dto

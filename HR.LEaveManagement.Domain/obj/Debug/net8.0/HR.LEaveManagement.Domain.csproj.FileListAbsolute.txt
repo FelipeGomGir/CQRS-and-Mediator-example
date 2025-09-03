@@ -21,3 +21,4 @@ C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LEaveManag
 C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LEaveManagement.Domain\obj\Debug\net8.0\refint\HR.LeaveManagement.Domain.dll
 C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LEaveManagement.Domain\obj\Debug\net8.0\HR.LeaveManagement.Domain.pdb
 C:\Users\luisf\source\repos\FelipeGomGir\CQRS-and-Mediator-example\HR.LEaveManagement.Domain\obj\Debug\net8.0\ref\HR.LeaveManagement.Domain.dll
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LEaveManagement.Domain\obj\Debug\net8.0\HR.LeaveManagement.Domain.sourcelink.json
