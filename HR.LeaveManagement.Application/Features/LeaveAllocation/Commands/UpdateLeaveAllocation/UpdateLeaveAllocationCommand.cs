@@ -9,8 +9,8 @@ namespace HR.LeaveManagement.Application.Features.LeaveAllocation.Commands.Updat
 {
     public class UpdateLeaveAllocationCommand : IRequest<Unit>
     {
-        public string EmployeeId { get; set; } = string.Empty;
-        public string NumberOfDays { get; set; }
+        public int EmployeeId { get; set; }
+        public int? NumberOfDays { get; set; }
         public int LeaveTypeId { get; set; } /// This is a foreing key between LeaveType and Leave Allocation 
         public int Period { get; set; }
     }

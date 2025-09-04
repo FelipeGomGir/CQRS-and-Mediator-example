@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HR.LeaveManagement.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+791f78f120ffc8c15a3fbefed0388d13826eafea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17e71fde2444d68b0d1e813d2ae97bc9733cf538")]
 [assembly: System.Reflection.AssemblyProductAttribute("HR.LeaveManagement.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HR.LeaveManagement.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
