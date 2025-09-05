@@ -26,7 +26,7 @@ namespace HR.LeaveManagement.Application.Features.LeaveAllocation.Commands.Updat
             this._leaveAllocationRepository = leaveAllocationRepository;
         }
         public async Task<Unit> Handle(UpdateLeaveAllocationCommand request, CancellationToken cancellationToken)
-        {
+        {   /// Validation
             var validator = new UpdateLeaveAllocationCommandValidator(_leaveTypeRepository,_leaveAllocationRepository);
             var validationResult = await validator.ValidateAsync(request);
 
@@ -34,14 +34,20 @@ namespace HR.LeaveManagement.Application.Features.LeaveAllocation.Commands.Updat
             {
                 throw new BadRequestException("Invalid Leave Allocation", validationResult);
             }
-
+            // The clean way of updating data is to fetch the original record on DB
+            ///Get the Object from the DB
             var leaveAllocation = await _leaveAllocationRepository.GetByIdAsync(request.EmployeeId);
-
+            // It would not pass this part if it does not exists. This is already validated on the validator
+            // so it can be removed.
             if (leaveAllocation is null)
             {
                 throw new NotFoundException(nameof(LeaveAllocation), request.EmployeeId);
             }
-
+            // Then map the request object to leaveAllocation
+            // what this would do is to retain the original values and override the new values
+            /// Add the new data to the object that already exists.
+            _mapper.Map(request,leaveAllocation);
+            // It does notreturn a value so Unit.Value is used 
             return Unit.Value;
         }
     }
