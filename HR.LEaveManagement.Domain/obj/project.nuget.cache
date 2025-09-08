@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oWTyxZeetbw=",
+  "dgSpecHash": "qmSolY20I6c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
+  "projectFilePath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,22 @@
+﻿using HR.LeaveManagement.Identity.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HR.LeaveManagement.Identity.DbContext
+{
+    // IdentiyDbContext gives us access to the user tables out of the box
+    //<ApplciationUser> give us access to the fields declared at ApplicationUser
+    public class HrLeaveManagementIdentityDbContext : IdentityDbContext<ApplicationUser>
+    {
+        public HrLeaveManagementIdentityDbContext(
+            DbContextOptions<HrLeaveManagementIdentityDbContext> options) : base(options)
+        {
+            
+        }
+    }
+}

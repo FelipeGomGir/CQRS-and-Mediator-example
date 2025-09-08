@@ -8,6 +8,7 @@ namespace HR.LeaveManagement.Application.Models.Identity
 {
     public class AuthRequest
     {
+        // This could be email or username
         public string Email { get; set; }
         public string Password { get; set; }  
     }

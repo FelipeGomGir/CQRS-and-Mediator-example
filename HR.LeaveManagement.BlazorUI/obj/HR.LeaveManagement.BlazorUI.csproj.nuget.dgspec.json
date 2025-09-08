@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.BlazorUI\\HR.LeaveManagement.BlazorUI.csproj": {}
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.BlazorUI\\HR.LeaveManagement.BlazorUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.BlazorUI\\HR.LeaveManagement.BlazorUI.csproj": {
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.BlazorUI\\HR.LeaveManagement.BlazorUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.BlazorUI\\HR.LeaveManagement.BlazorUI.csproj",
+        "projectUniqueName": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.BlazorUI\\HR.LeaveManagement.BlazorUI.csproj",
         "projectName": "HR.LeaveManagement.BlazorUI",
-        "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.BlazorUI\\HR.LeaveManagement.BlazorUI.csproj",
-        "packagesPath": "C:\\Users\\luisf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.BlazorUI\\obj\\",
+        "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.BlazorUI\\HR.LeaveManagement.BlazorUI.csproj",
+        "packagesPath": "C:\\Users\\fgomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.BlazorUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luisf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fgomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -70,13 +70,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.18, )",
+              "version": "[8.0.19, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.7, )",
+              "version": "[9.0.8, )",
               "autoReferenced": true
             }
           },
@@ -94,7 +94,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.18, 8.0.18]"
+              "version": "[8.0.19, 8.0.19]"
             }
           ],
           "frameworkReferences": {
@@ -102,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Api\\HR.LeaveManagement.Api.csproj": {}
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Api\\HR.LeaveManagement.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Api\\HR.LeaveManagement.Api.csproj": {
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Api\\HR.LeaveManagement.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Api\\HR.LeaveManagement.Api.csproj",
+        "projectUniqueName": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Api\\HR.LeaveManagement.Api.csproj",
         "projectName": "HR.LeaveManagement.Api",
-        "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Api\\HR.LeaveManagement.Api.csproj",
-        "packagesPath": "C:\\Users\\luisf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Api\\obj\\",
+        "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Api\\HR.LeaveManagement.Api.csproj",
+        "packagesPath": "C:\\Users\\fgomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luisf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fgomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,14 +32,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
+              "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
               },
-              "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj"
+              "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Identity\\HR.LeaveManagement.Identity.csproj": {
+                "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Identity\\HR.LeaveManagement.Identity.csproj"
               },
-              "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj": {
-                "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj"
+              "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj"
+              },
+              "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj": {
+                "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj"
               }
             }
           }
@@ -90,24 +93,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
+        "projectUniqueName": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
         "projectName": "HR.LeaveManagement.Application",
-        "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
-        "packagesPath": "C:\\Users\\luisf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\obj\\",
+        "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\fgomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luisf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fgomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -122,8 +125,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj"
+              "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj"
               }
             }
           }
@@ -173,24 +176,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
         "projectName": "HR.LeaveManagement.Domain",
-        "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\luisf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\obj\\",
+        "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\fgomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luisf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fgomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -238,24 +241,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj": {
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Identity\\HR.LeaveManagement.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj",
-        "projectName": "HR.LeaveManagement.Infrastructure",
-        "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\luisf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Infrastructure\\obj\\",
+        "projectUniqueName": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Identity\\HR.LeaveManagement.Identity.csproj",
+        "projectName": "HR.LeaveManagement.Identity",
+        "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Identity\\HR.LeaveManagement.Identity.csproj",
+        "packagesPath": "C:\\Users\\fgomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luisf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fgomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -270,11 +273,108 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
+              "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj",
+        "projectName": "HR.LeaveManagement.Infrastructure",
+        "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\fgomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fgomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
               },
-              "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj"
+              "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LEaveManagement.Domain\\HR.LeaveManagement.Domain.csproj"
               }
             }
           }
@@ -332,24 +432,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj": {
+    "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
         "projectName": "HR.LeaveManagment.Persistence",
-        "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
-        "packagesPath": "C:\\Users\\luisf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagment.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
+        "packagesPath": "C:\\Users\\fgomez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagment.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luisf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fgomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -364,8 +464,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
-                "projectPath": "C:\\Users\\luisf\\source\\repos\\FelipeGomGir\\CQRS-and-Mediator-example\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
+              "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\fgomez\\source\\repos\\HR.LeaveManagment.Clean\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
               }
             }
           }
@@ -386,6 +486,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -411,7 +515,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
