@@ -40,6 +40,8 @@ app.UseHttpsRedirection();
 
 app.UseCors("all");
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllers();

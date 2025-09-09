@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.BlazorUI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Identity", "HR.LeaveManagement.Identity\HR.LeaveManagement.Identity.csproj", "{D78E5D9D-580F-455B-B211-66C12174D87D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{6A8A6120-D92D-4BA1-8C48-3BDEFDD50DDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{D78E5D9D-580F-455B-B211-66C12174D87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D78E5D9D-580F-455B-B211-66C12174D87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D78E5D9D-580F-455B-B211-66C12174D87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8A6120-D92D-4BA1-8C48-3BDEFDD50DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8A6120-D92D-4BA1-8C48-3BDEFDD50DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8A6120-D92D-4BA1-8C48-3BDEFDD50DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8A6120-D92D-4BA1-8C48-3BDEFDD50DDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

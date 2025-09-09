@@ -16,3 +16,5 @@ C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LeaveManagement.Identity
 C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LeaveManagement.Identity\obj\Debug\net8.0\refint\HR.LeaveManagement.Identity.dll
 C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LeaveManagement.Identity\obj\Debug\net8.0\HR.LeaveManagement.Identity.pdb
 C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LeaveManagement.Identity\obj\Debug\net8.0\ref\HR.LeaveManagement.Identity.dll
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LeaveManagement.Identity\bin\Debug\net8.0\HR.LeaveManagement.Identity.runtimeconfig.json
+C:\Users\fgomez\source\repos\HR.LeaveManagment.Clean\HR.LeaveManagement.Identity\obj\Debug\net8.0\HR.LeaveManagement.Identity.genruntimeconfig.cache

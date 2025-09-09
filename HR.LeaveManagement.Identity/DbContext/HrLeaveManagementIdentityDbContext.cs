@@ -18,5 +18,11 @@ namespace HR.LeaveManagement.Identity.DbContext
         {
             
         }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.ApplyConfigurationsFromAssembly(typeof(HrLeaveManagementIdentityDbContext).Assembly);
+        }
     }
 }
