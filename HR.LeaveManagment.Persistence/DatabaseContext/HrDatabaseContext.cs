@@ -1,4 +1,5 @@
-﻿using HR.LeaveManagement.Domain;
+﻿using HR.LeaveManagement.Application.Contracts.Identity;
+using HR.LeaveManagement.Domain;
 using HR.LeaveManagement.Domain.Common;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,8 +12,12 @@ namespace HR.LeaveManagment.Persistence.DatabaseContext
 {
     public class HrDatabaseContext : DbContext
     {
+        private readonly IUserService _userService;
 
-        public HrDatabaseContext(DbContextOptions<HrDatabaseContext> options) : base(options) { }
+        public HrDatabaseContext(DbContextOptions<HrDatabaseContext> options, IUserService userService) : base(options)
+        {
+            _userService = userService;
+        }
         public DbSet<LeaveType> LeaveTypes { get; set; }
         public DbSet<LeaveAllocation> LeaveAllocations { get; set; }
         public DbSet<LeaveRequest> LeaveRequests { get; set; }
@@ -30,10 +35,11 @@ namespace HR.LeaveManagment.Persistence.DatabaseContext
                 .Where(q => q.State == EntityState.Added || q.State == EntityState.Modified))
             {
                 entry.Entity.DateModified = DateTime.Now;
-
+                entry.Entity.ModifiedBy = _userService.UserId;
                 if (entry.State == EntityState.Added)
                 {
                     entry.Entity.DateCreated = DateTime.Now;
+                    entry.Entity.CreatedBy = _userService.UserId;
                 }
 
             }

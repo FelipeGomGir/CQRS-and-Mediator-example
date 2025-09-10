@@ -1,6 +1,7 @@
 ﻿using HR.LeaveManagement.Api.Middleware.Models;
 using HR.LeaveManagement.Application.Exceptions;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Newtonsoft.Json;
 using SendGrid.Helpers.Errors.Model;
 using System.Net;
 using System.Net.Http.Json;
@@ -10,10 +11,12 @@ namespace HR.LeaveManagement.Api.Middleware
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
+        private readonly ILogger<ExceptionMiddleware> _logger;
 
-        public ExceptionMiddleware(RequestDelegate next)
+        public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger)
         {
             _next = next;
+            _logger = logger;
         }
         public async Task InvokeAsync(HttpContext httpContext)
         {
@@ -74,8 +77,12 @@ namespace HR.LeaveManagement.Api.Middleware
             // just in case Status code is changed to set in the response what is the new one.
             // We are setting the status code we want to return
             httpContext.Response.StatusCode = (int)statusCode;
+            var logMessage = JsonConvert.SerializeObject(problem);
+            _logger.LogError(ex, logMessage);
             // And we are writting the problem details as JSON back with the response. 
             await httpContext.Response.WriteAsJsonAsync(problem);
+
+
         }
     }
 }

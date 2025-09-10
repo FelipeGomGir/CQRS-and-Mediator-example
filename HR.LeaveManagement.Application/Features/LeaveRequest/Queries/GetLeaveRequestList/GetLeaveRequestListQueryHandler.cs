@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using HR.LeaveManagement.Application.Contracts.Identity;
 using HR.LeaveManagement.Application.Contracts.Persistence;
 using MediatR;
 using System;
@@ -13,21 +14,46 @@ namespace HR.LeaveManagement.Application.Features.LeaveRequest.Queries.GetLeaveR
     {
         private readonly IMapper _mapper;
         private readonly ILeaveRequestRepository _leaveRequestRepository;
+        private readonly IUserService _userService;
 
-        public GetLeaveRequestListQueryHandler(IMapper mapper,ILeaveRequestRepository leaveRequestRepository)
+        public GetLeaveRequestListQueryHandler(IMapper mapper,ILeaveRequestRepository leaveRequestRepository, IUserService userService)
         {
-            this._mapper = mapper;
-            this._leaveRequestRepository = leaveRequestRepository;
+            _mapper = mapper;
+            _leaveRequestRepository = leaveRequestRepository;
+            _userService = userService;
         }
         public async Task<List<LeaveRequestListDto>> Handle(GetLeaveRequestListQuery request, CancellationToken cancellationToken)
         {
-            // Check if it is logged in employee
+            
 
             var leaveRequests = await _leaveRequestRepository.GetLeaveRequestsWithDetails();
             var requests = _mapper.Map<List<LeaveRequestListDto>>(leaveRequests);
 
-            // Fill request;
-            return requests;
+            // Check if it is logged in employee
+            if (request.IsLoggedInUser)
+            {
+                var userId = _userService.UserId;
+                leaveRequests = await _leaveRequestRepository.GetLeaveRequestsWithDetails(userId);
+
+                var employee = await _userService.GetEmployee(userId);
+                requests = _mapper.Map<List<LeaveRequestListDto>>(leaveRequests);
+                foreach (var req in requests)
+                {
+                    req.Employee = employee;
+                }
+            }
+            else 
+            {
+                leaveRequests = await _leaveRequestRepository.GetLeaveRequestsWithDetails();
+                requests = _mapper.Map<List<LeaveRequestListDto>>(leaveRequests);
+                foreach (var req in requests)
+                { 
+                    req.Employee = await _userService.GetEmployee(req.RequestingEmployeeId);
+                }
+            }
+
+                // Fill request;
+                return requests;
         }
     }
 }

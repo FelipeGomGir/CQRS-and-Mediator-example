@@ -5,7 +5,7 @@ namespace HR.LeaveManagement.Domain;
 public class LeaveAllocation: BaseEntity
 {
     public string EmployeeId { get; set; } = string.Empty;
-    public string NumberOfDays { get; set; }
+    public int NumberOfDays { get; set; }
     public LeaveType? LeaveType { get; set; } /// This is a foreing key between LeaveType and Leave Allocation 
     public int LeaveTypeId { get; set; } /// This is a foreing key between LeaveType and Leave Allocation 
     public int Period { get; set; }

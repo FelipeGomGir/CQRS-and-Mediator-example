@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HR.LeaveManagement.Persistence.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73b3c5cbd0d9481e942bb5b75bd8ee54ecea2728")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8da67dad2b890b03f3cc95d134758283855d8233")]
 [assembly: System.Reflection.AssemblyProductAttribute("HR.LeaveManagement.Persistence.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HR.LeaveManagement.Persistence.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

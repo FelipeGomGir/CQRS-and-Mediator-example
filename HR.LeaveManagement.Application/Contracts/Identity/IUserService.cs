@@ -12,5 +12,6 @@ namespace HR.LeaveManagement.Application.Contracts.Identity
         // Allows to retrieve all the employees
         Task<List<Employee>> GetEmployees();
         Task<Employee> GetEmployee(string userId);
+        public string UserId { get; }
     }
 }
